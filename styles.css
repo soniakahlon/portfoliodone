@@ -1,0 +1,476 @@
+body {
+  box-sizing: border-box;
+  color: white;
+  font-family: "Hammersmith One", sans-serif;
+  background: #F4FAFB;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.infotext {
+  flex-basis: 40%;
+  font-family: "Abril Fatface", cursive;
+}
+
+#logo {
+  flex-basis: 30%;
+}
+
+.navlist {
+  flex-basis: 30%;
+  list-style: none;
+}
+
+.navlist li {
+  display: inline;
+  margin-right: 20px;
+}
+
+
+h2 {
+  font-size: 32px;
+  color: gainsboro;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+   font-family: "Hammersmith One", sans-serif;
+}
+
+a:visited {
+  color: #F4FAFB;
+}
+
+a:hover {
+  color: #3A3F40;
+}
+
+a:active {
+  color: gainsboro;
+}
+.box-4 {
+    background-color: #8FBFC8;
+  }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  color: #F4FAFB;
+}
+
+  p {
+    color: white;
+  }
+
+  .fa {
+    padding: 12px;
+    margin: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10%;
+  }
+
+  .fa-facebook {
+    background: #3b5998;
+  }
+
+  .fa-twitter {
+    background: #55acee;
+  }
+
+  .fa-instagram {
+    background: #3A3F40;
+  }
+
+  .contact {
+    text-align: center;
+    color: gainsboro;
+  }
+
+  a.backtotop:link {
+    color:white;
+    text-decoration: none;
+  }
+
+  a.backtotop:visited {
+    color:white;
+  }
+
+  #logofoot {
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    padding-bottom:0px;
+  }
+
+.infolinks {
+    padding-left: 20px;
+    padding-right: 20px;}
+
+    
+ .content { 
+display: flex;  
+justify-content: space-between; 
+flex-wrap: wrap; 
+ } 
+
+.box:nth-child(1) {
+  background-color: #8FBFC8;
+  padding: 10px;
+
+}
+
+.box:nth-child(4) {
+  background-color: #8FBFC8;
+  padding: 10px;
+}
+  
+@media screen and (min-width: 300px) {
+
+  container {
+     width: 100%;
+   }
+
+.box { 
+    flex-basis: 100%; 
+   } 
+ 
+.box img { 
+  width: 100%; 
+  } 
+
+  .infotext {
+    background-color: #8FBFC8;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    background-image: url("https://uploads.codesandbox.io/uploads/user/7b2eda95-3c1e-43cb-8c4e-94fb1dce01d2/C9fv-SEA.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  #logo {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    padding-bottom: 17px;
+    text-align: center;
+  }
+
+  h1 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 38px;
+    color: white;
+    font-family: "Abril Fatface", cursive;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+
+  h4 {
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    font-size: 32px;
+    margin: auto;
+    font-family: "Abril Fatface", cursive;
+    letter-spacing: 3px;
+    
+  }
+
+  
+ .menu-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-self:center;
+    
+}
+
+.menu-bar div{
+    background-color:white;
+    border-radius: 25px;
+    height: 5px;
+    width: 35px;
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out;
+    padding: 2px;
+}
+
+.menu-bar .one,
+.menu-bar .two{
+    margin-bottom: 7px;
+}
+
+
+.navlist {
+    position: absolute;
+    top: -30%;
+    left: 48%;
+    transition-duration: 300ms;
+  }
+
+.menu-bar.active .one{
+  transform:rotate(-45deg);
+}
+
+.menu-bar.active .two{
+    transform: rotate(-45deg);
+}
+
+.menu-bar.active .three{
+  transform:  rotate(-45deg);
+}
+
+
+.navlist.active {
+    top: 30%;
+    transform: translate(-50%,-50%);
+    transition-delay: 300ms;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+ 
+  
+}
+
+@media screen and (min-width: 600px) {
+  .box { 
+    flex-basis: 100%; 
+   } 
+ 
+.box img { 
+  width: 100%; 
+   } 
+
+  .infotext {
+    background-color: #8FBFC8;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    background-image: url("https://uploads.codesandbox.io/uploads/user/7b2eda95-3c1e-43cb-8c4e-94fb1dce01d2/C9fv-SEA.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+ 
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #logo {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  h1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 48px;
+    color: white;
+    font-family: "Abril Fatface", cursive;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+
+
+  h4 {
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    font-size: 42px;
+    margin: auto;
+    font-family: "Abril Fatface", cursive;
+    letter-spacing: 3px;
+    }
+  
+
+  
+ .menu-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-self:center;
+    
+}
+
+.menu-bar div{
+    background-color:white;
+    border-radius: 25px;
+    height: 7px;
+    width: 55px;
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out;
+    padding: 2px;
+}
+
+.menu-bar .one,
+.menu-bar .two{
+    margin-bottom: 7px;
+}
+
+
+.navlist {
+    position: absolute;
+    top: -30%;
+    left: 48%;
+    transition-duration: 300ms;
+  }
+
+.menu-bar.active .one{
+  transform:rotate(-45deg);
+}
+
+.menu-bar.active .two{
+    transform: rotate(-45deg);
+}
+
+.menu-bar.active .three{
+  transform:  rotate(-45deg);
+}
+
+
+.navlist.active {
+    top: 42%;
+    transform: translate(-50%,-50%);
+    transition-delay: 300ms;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+ 
+  
+}
+
+@media screen and (min-width: 1000px) {
+  
+.container {
+  max-width: 100%;
+  
+}
+
+  .infotext {
+    background-color: #8FBFC8;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    background-image: url("https://uploads.codesandbox.io/uploads/user/7b2eda95-3c1e-43cb-8c4e-94fb1dce01d2/C9fv-SEA.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+  
+.navlist {
+  position: absolute;
+  top:5%;
+  left:65%
+}
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+  }
+
+  li {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+  }
+
+  #logo {
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+   position: absolute;
+   top:10%;
+   right:47%;
+    
+    
+  }
+
+  h1 {
+    display: flex;
+    flex-direction: row;
+    font-size: 48px;
+    color: white;
+    font-family: "Abril Fatface", cursive;
+    letter-spacing: 3px;
+  }
+
+  h4 {
+    text-align: center;
+    font-size: 42px;
+    margin: auto;
+    font-family: "Abril Fatface", cursive;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+  }
+
+  
+.box { 
+flex-basis: 49%; 
+ } 
+  
+.box img {
+  width: 100%;
+}
+  
+ 
+  
+.menu-bar {
+  display:none;
+}
+}
+
+
+
