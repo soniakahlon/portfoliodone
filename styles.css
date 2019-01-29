@@ -69,30 +69,7 @@ footer {
     color: white;
   }
 
-  .fa {
-    padding: 12px;
-    margin: 10px;
-    font-size: 20px;
-    width: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    border-radius: 10%;
-  }
-
-  .fa-facebook {
-    background: #3b5998;
-  }
-
-  .fa-twitter {
-    background: #55acee;
-  }
-
-  .fa-instagram {
-    background: #3A3F40;
-  }
-
+  
   .contact {
     text-align: center;
     color: gainsboro;
