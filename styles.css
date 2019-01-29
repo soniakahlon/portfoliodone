@@ -1,4 +1,4 @@
-body {
+ body {
   box-sizing: border-box;
   color: white;
   font-family: "Hammersmith One", sans-serif;
@@ -54,7 +54,7 @@ a:hover {
 a:active {
   color: gainsboro;
 }
-.box-4 {
+.four {
     background-color: #8FBFC8;
   }
 
